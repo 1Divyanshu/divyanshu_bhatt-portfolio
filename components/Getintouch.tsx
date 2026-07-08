@@ -3,7 +3,6 @@ import { useRef, useState, FormEvent } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-// Don't forget to import Github, Linkedin, and Twitter (or whichever socials you prefer)
 import { Mail, MapPin, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
