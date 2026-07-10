@@ -83,15 +83,25 @@ export default function FeaturedProjects() {
       description: "A streamlined URL shortener service built to convert long, cumbersome links into manageable URLs, powered by a robust MongoDB backend.",
       icon: <Link2 className="w-6 h-6 text-emerald-700" />,
       techStack: ["React", "MongoDB", "JavaScript", "Node.js"],
+      githubLink: "https://github.com/1Divyanshu/URL-Shortener" ,
       liveLink: null 
     },
+    // {
+    //   id: 4,
+    //   title: "Password Manager",
+    //   description: "A local utility application designed to generate, securely store, and manage encrypted credentials and passwords for personal use.",
+    //   icon: <KeyRound className="w-6 h-6 text-emerald-700" />,
+    //   techStack: ["React", "TypeScript", "Vite", "Node.js"],
+    //   liveLink: null 
+    // },
     {
       id: 4,
-      title: "Password Manager",
-      description: "A local utility application designed to generate, securely store, and manage encrypted credentials and passwords for personal use.",
+      title: "Geo Classify",
+      description: "A web application for soil classification using USCS, ISSCS, and AASHTO standards with gradation analysis, Atterberg limits, and automatic classification.",
       icon: <KeyRound className="w-6 h-6 text-emerald-700" />,
-      techStack: ["React", "TypeScript", "Vite", "Node.js"],
-      liveLink: null 
+      techStack: ["Next.js", "TypeScript", "React", "Tailwind", "Plotly.js"],
+      githubLink: "https://github.com/1Divyanshu/GeoClassify.git",
+      liveLink: "https://geo-classify.vercel.app/"
     }
   ];
 
